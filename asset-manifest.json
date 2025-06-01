@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skjortan/static/css/main.08744540.css",
+    "main.js": "/skjortan/static/js/main.c4013bbd.js",
+    "static/js/453.888d1123.chunk.js": "/skjortan/static/js/453.888d1123.chunk.js",
+    "index.html": "/skjortan/index.html",
+    "main.08744540.css.map": "/skjortan/static/css/main.08744540.css.map",
+    "main.c4013bbd.js.map": "/skjortan/static/js/main.c4013bbd.js.map",
+    "453.888d1123.chunk.js.map": "/skjortan/static/js/453.888d1123.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08744540.css",
+    "static/js/main.c4013bbd.js"
+  ]
+}
