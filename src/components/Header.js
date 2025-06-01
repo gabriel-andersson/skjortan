@@ -21,9 +21,9 @@ const Header = () => {
               <li className="nav-item">
                 <button className="nav-link active">Dashboard</button>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <button className="nav-link">About</button>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

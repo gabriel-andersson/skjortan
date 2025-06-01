@@ -20,9 +20,8 @@ const Dashboard = () => {
     
     // If no participants were loaded from localStorage, add some demo participants
     if (!loadedSuccessfully && participantManager.getAllParticipants().length === 0) {
-      participantManager.addParticipant('Alice');
-      participantManager.addParticipant('Bob');
-      participantManager.addParticipant('Charlie');
+      participantManager.addParticipant('Martti');
+      participantManager.addParticipant('Gabriel');
       participantManager.saveToLocalStorage();
     }
     
@@ -71,7 +70,7 @@ const Dashboard = () => {
       <div className="container">
         <div className="dashboard-header">
           <h2>Beer Debt Tracker</h2>
-          <p className="tagline">Keep track of who owes who a beer!</p>
+          <p className="tagline">Vem glömde skjortan?</p>
         </div>
         
         <ParticipantSelector
@@ -93,7 +92,7 @@ const Dashboard = () => {
                 )}
               </div>
               <div className="current-participant-details">
-                <h3>Hello, {currentParticipant.name}!</h3>
+                <h3>{currentParticipant.name}!</h3>
                 <p>
                   You currently owe <strong>{currentParticipant.beersOwed}</strong> beers in total.
                 </p>
